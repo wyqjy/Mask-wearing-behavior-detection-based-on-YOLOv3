@@ -1,0 +1,101 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'query.ui'
+#
+# Created by: PyQt5 UI code generator 5.13.0
+#
+# WARNING! All changes made in this file will be lost!
+
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+
+class Ui_Query(object):
+    def setupUi(self, Query):
+        Query.setObjectName("Query")
+        Query.resize(800, 600)
+        self.centralwidget = QtWidgets.QWidget(Query)
+        self.centralwidget.setObjectName("centralwidget")
+        self.layoutWidget = QtWidgets.QWidget(self.centralwidget)
+        self.layoutWidget.setGeometry(QtCore.QRect(245, 330, 321, 23))
+        self.layoutWidget.setObjectName("layoutWidget")
+        self.horizontalLayout_2 = QtWidgets.QHBoxLayout(self.layoutWidget)
+        self.horizontalLayout_2.setContentsMargins(0, 0, 0, 0)
+        self.horizontalLayout_2.setObjectName("horizontalLayout_2")
+        self.label_4 = QtWidgets.QLabel(self.layoutWidget)
+        self.label_4.setMinimumSize(QtCore.QSize(140, 0))
+        self.label_4.setMaximumSize(QtCore.QSize(150, 16777215))
+        self.label_4.setObjectName("label_4")
+        self.horizontalLayout_2.addWidget(self.label_4)
+        self.label_6 = QtWidgets.QLabel(self.layoutWidget)
+        self.label_6.setMinimumSize(QtCore.QSize(0, 0))
+        self.label_6.setMaximumSize(QtCore.QSize(30, 16777215))
+        self.label_6.setText("")
+        self.label_6.setObjectName("label_6")
+        self.horizontalLayout_2.addWidget(self.label_6)
+        self.label_5 = QtWidgets.QLabel(self.layoutWidget)
+        self.label_5.setMinimumSize(QtCore.QSize(130, 0))
+        self.label_5.setMaximumSize(QtCore.QSize(100, 16777215))
+        self.label_5.setObjectName("label_5")
+        self.horizontalLayout_2.addWidget(self.label_5)
+        self.label_3 = QtWidgets.QLabel(self.centralwidget)
+        self.label_3.setGeometry(QtCore.QRect(100, 170, 351, 16))
+        self.label_3.setObjectName("label_3")
+        self.layoutWidget_2 = QtWidgets.QWidget(self.centralwidget)
+        self.layoutWidget_2.setGeometry(QtCore.QRect(270, 240, 242, 30))
+        self.layoutWidget_2.setObjectName("layoutWidget_2")
+        self.horizontalLayout_3 = QtWidgets.QHBoxLayout(self.layoutWidget_2)
+        self.horizontalLayout_3.setContentsMargins(0, 0, 0, 0)
+        self.horizontalLayout_3.setObjectName("horizontalLayout_3")
+        self.pushButton = QtWidgets.QPushButton(self.layoutWidget_2)
+        self.pushButton.setObjectName("pushButton")
+        self.horizontalLayout_3.addWidget(self.pushButton)
+        spacerItem = QtWidgets.QSpacerItem(40, 20, QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Minimum)
+        self.horizontalLayout_3.addItem(spacerItem)
+        self.pushButton_2 = QtWidgets.QPushButton(self.layoutWidget_2)
+        self.pushButton_2.setObjectName("pushButton_2")
+        self.horizontalLayout_3.addWidget(self.pushButton_2)
+        self.layoutWidget_3 = QtWidgets.QWidget(self.centralwidget)
+        self.layoutWidget_3.setGeometry(QtCore.QRect(100, 140, 591, 23))
+        self.layoutWidget_3.setObjectName("layoutWidget_3")
+        self.horizontalLayout = QtWidgets.QHBoxLayout(self.layoutWidget_3)
+        self.horizontalLayout.setContentsMargins(0, 0, 0, 0)
+        self.horizontalLayout.setObjectName("horizontalLayout")
+        self.label = QtWidgets.QLabel(self.layoutWidget_3)
+        self.label.setObjectName("label")
+        self.horizontalLayout.addWidget(self.label)
+        self.lineEdit = QtWidgets.QLineEdit(self.layoutWidget_3)
+        self.lineEdit.setObjectName("lineEdit")
+        self.horizontalLayout.addWidget(self.lineEdit)
+        spacerItem1 = QtWidgets.QSpacerItem(40, 20, QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Minimum)
+        self.horizontalLayout.addItem(spacerItem1)
+        self.label_2 = QtWidgets.QLabel(self.layoutWidget_3)
+        self.label_2.setObjectName("label_2")
+        self.horizontalLayout.addWidget(self.label_2)
+        self.lineEdit_2 = QtWidgets.QLineEdit(self.layoutWidget_3)
+        self.lineEdit_2.setObjectName("lineEdit_2")
+        self.horizontalLayout.addWidget(self.lineEdit_2)
+        self.label_7 = QtWidgets.QLabel(self.centralwidget)
+        self.label_7.setGeometry(QtCore.QRect(280, 210, 211, 16))
+        self.label_7.setObjectName("label_7")
+        Query.setCentralWidget(self.centralwidget)
+
+        self.retranslateUi(Query)
+        QtCore.QMetaObject.connectSlotsByName(Query)
+
+    def retranslateUi(self, Query):
+        _translate = QtCore.QCoreApplication.translate
+        Query.setWindowTitle(_translate("Query", "MainWindow"))
+        self.label_4.setText(_translate("Query", "这段时间内总共存在"))
+        self.label_5.setText(_translate("Query", "人未佩戴口罩"))
+        self.label_3.setText(_translate("Query", "日期格式为：年-月-日（例如2020-04-19）"))
+        self.pushButton.setText(_translate("Query", "查询"))
+        self.pushButton_2.setText(_translate("Query", "返回"))
+        self.label.setText(_translate("Query", "开始日期:"))
+        self.label_2.setText(_translate("Query", "结束日期："))
+        self.label_7.setText(_translate("Query", "日期查询不到，请重新输入"))
+
+        self.label_5.setVisible(False)
+        self.label_4.setVisible(False)
+        self.label_6.setVisible(False)
+        self.label_7.setVisible(False)

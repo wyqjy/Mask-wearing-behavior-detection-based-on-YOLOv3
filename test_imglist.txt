@@ -1,0 +1,10 @@
+D:\002\Mask-detection/test/0001.jpg
+D:\002\Mask-detection/test/0002.jpg
+D:\002\Mask-detection/test/0003.jpg
+D:\002\Mask-detection/test/0004.jpg
+D:\002\Mask-detection/test/0005.jpg
+D:\002\Mask-detection/test/0006.jpg
+D:\002\Mask-detection/test/0007.jpg
+D:\002\Mask-detection/test/0008.jpg
+D:\002\Mask-detection/test/0009.jpg
+D:\002\Mask-detection/test/0010.jpg
